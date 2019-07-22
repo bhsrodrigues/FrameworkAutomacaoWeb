@@ -1,0 +1,168 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>estudos</groupId>
+  <artifactId>FrameworkAutomacaoWeb</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>FrameworkAutomacaoWeb</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <java.version>1.8</java.version>
+  	<browserName>BROWSERNAME</browserName>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  	<aspectj.version>1.8.10</aspectj.version>
+  	<allure.results.directory>
+        ${project.build.directory}/allure-results
+    </allure.results.directory>
+    <tms>
+        https://github.com/allure-framework/allure-docs/issues/{}
+    </tms>
+    <issues.tracker>
+        https://github.com/allure-framework/allure-docs/issues/{}
+    </issues.tracker>
+  </properties>
+
+<build>
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.6.0</version>
+            <configuration>
+                <source>1.8</source>
+                <target>1.8</target>
+                <includes>
+		    <exclude>**/*RunTest.java</exclude>
+		  </includes>
+            </configuration>
+        </plugin>
+        <plugin>
+    <artifactId>maven-clean-plugin</artifactId>
+    <version>2.4.1</version>
+    <configuration>
+        <filesets>
+            <fileset>
+                <directory>allure-results</directory>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+                <followSymlinks>false</followSymlinks>
+            </fileset>
+        </filesets>
+    </configuration>
+</plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.19</version>
+        <configuration>
+          <testFailureIgnore>false</testFailureIgnore>
+          <argLine>
+            -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                        -Dcucumber.options="--plugin io.qameta.allure.cucumberjvm.AllureCucumberJvm"
+          </argLine>         
+          <argLine>
+                    -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                </argLine>
+                <properties>
+                    <property>
+                        <name>listener</name>
+                        <value>io.qameta.allure.junit4.AllureJunit4</value>
+                    </property>
+                </properties>          
+        </configuration>
+        <dependencies>
+          <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj.version}</version>
+          </dependency>
+        </dependencies>
+      </plugin>
+    </plugins>
+  </build>
+
+
+  <dependencies>
+	<dependency>
+	  <groupId>commons-io</groupId>
+	  <artifactId>commons-io</artifactId>
+	  <version>2.4</version>
+	</dependency>
+  	<dependency>
+  		<groupId>org.mockito</groupId>
+  		<artifactId>mockito-all</artifactId>
+  		<version>1.10.19</version>
+  	</dependency>
+  	<dependency>
+	    <groupId>commons-validator</groupId>
+	    <artifactId>commons-validator</artifactId>
+	    <version>1.6</version>
+	</dependency>
+  	<dependency>
+	    <groupId>io.appium</groupId>
+	    <artifactId>java-client</artifactId>
+	    <version>6.1.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>gherkin</artifactId>
+	    <version>2.12.2</version>
+	</dependency>
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-core</artifactId>
+	    <version>1.2.5</version>
+	</dependency>
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-java</artifactId>
+	    <version>1.2.5</version>
+	</dependency>
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-junit</artifactId>
+	    <version>1.2.5</version>
+	</dependency>
+	<dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+	    <version>4.12</version>
+	</dependency>
+	<dependency>
+        <groupId>io.qameta.allure</groupId>
+        <artifactId>allure-junit4</artifactId>
+        <version>2.12.1</version>
+        <scope>test</scope>
+    </dependency>
+	<dependency>
+    <groupId>info.cukes</groupId>
+    <artifactId>cucumber-jvm-deps</artifactId>
+    <version>1.0.5</version>
+    <scope>provided</scope>
+	</dependency>
+    <dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>3.12.0</version>
+</dependency>
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-cucumber-jvm</artifactId>
+    <version>2.12.1</version>
+</dependency><dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-support</artifactId>
+    <version>3.12.0</version>
+</dependency><dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-api</artifactId>
+    <version>3.12.0</version>
+</dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,785 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-14T21:53:59.953Z",
+        "before": [
+          {
+            "result": {
+              "duration": 79957200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "0001 - Efetuar login",
+        "description": "",
+        "id": "envio-de-email-via-google-(gmail);0001---efetuar-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 113 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027LAPTOP-OJ05BAOP\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)\r\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:130)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat estudos.frameworkautomacaoweb.drivermanager.ChromeDriverManager.createDriver(ChromeDriverManager.java:11)\r\n\tat estudos.frameworkautomacaoweb.drivermanager.DriverManager.getWebDriver(DriverManager.java:18)\r\n\tat estudos.frameworkautomacaoweb.drivermanager.SetUp.setUpBrowser(SetUp.java:11)\r\n\tat estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.eu_esteja_na_página_de_login_do_Gmail(EmailGoogleStepDefinition.java:19)\r\n\tat ✽.Eu esteja na página de login do Gmail(file:///C:/Users/Bruno/GitTeste/FrameworkAutomacaoWeb/src/test/resources/Features/0001%20-%20EmailGoogle.feature:8)\r\n",
+              "duration": 1540524100,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "Eu esteja na página de login do Gmail",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.eu_esteja_na_página_de_login_do_Gmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Eu informo meus dados de login",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.eu_informo_meus_dados_de_login(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "bhsrodriguesteste@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "senha",
+                  ""
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999900,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "clico no botão login",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.clico_no_botão_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Eu acesso meu e-mail com sucesso",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.eu_acesso_meu_e_mail_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tudo"
+          },
+          {
+            "name": "@google"
+          },
+          {
+            "name": "@gmail"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-14T21:54:01.748Z",
+        "before": [
+          {
+            "result": {
+              "duration": 998500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "0002 - Enviar email",
+        "description": "",
+        "id": "envio-de-email-via-google-(gmail);0002---enviar-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Eu esteja na página do Gmail",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.eu_esteja_na_página_do_Gmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"estudos.frameworkautomacaoweb.pages.GmailPage.clickOnWriteButton()\" because \"estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.gmailPage\" is null\r\n\tat estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.eu_clico_no_botão_escrever(EmailGoogleStepDefinition.java:48)\r\n\tat ✽.Eu clico no botão escrever(file:///C:/Users/Bruno/GitTeste/FrameworkAutomacaoWeb/src/test/resources/Features/0001%20-%20EmailGoogle.feature:17)\r\n",
+              "duration": 9995000,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "Eu clico no botão escrever",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.eu_clico_no_botão_escrever()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Preencho os dados do email",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.preencho_os_dados_do_email(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "para",
+                  "bhsrodriguesteste@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "assunto",
+                  "E-mail de teste"
+                ]
+              },
+              {
+                "cells": [
+                  "mensagem",
+                  "Este é um email de teste"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "Clico em enviar",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.clico_em_enviar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "O email será enviado com sucesso",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.o_email_será_enviado_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tudo"
+          },
+          {
+            "name": "@google"
+          },
+          {
+            "name": "@gmail"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-14T21:54:01.788Z",
+        "before": [
+          {
+            "result": {
+              "duration": 998700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "0003 - Realizar logout",
+        "description": "",
+        "id": "envio-de-email-via-google-(gmail);0003---realizar-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Eu esteja logado no Gmail",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.eu_esteja_logado_no_Gmail()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"estudos.frameworkautomacaoweb.pages.GmailPage.logoutGmail()\" because \"estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.gmailPage\" is null\r\n\tat estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.clico_na_opção_de_logout(EmailGoogleStepDefinition.java:73)\r\n\tat ✽.clico na opção de logout(file:///C:/Users/Bruno/GitTeste/FrameworkAutomacaoWeb/src/test/resources/Features/0001%20-%20EmailGoogle.feature:27)\r\n",
+              "duration": 999000,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "clico na opção de logout",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.clico_na_opção_de_logout()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2013600,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "removo minha conta",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.removo_minha_conta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999200,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "será exibido campo para acessar email novamente",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.EmailGoogleStepDefinition.será_exibido_campo_para_acessar_email_novamente()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tudo"
+          },
+          {
+            "name": "@google"
+          },
+          {
+            "name": "@gmail"
+          }
+        ]
+      }
+    ],
+    "name": "Envio de Email via Google (Gmail)",
+    "description": "  Como usuário de email do google, desejo acessar e enviar um email via Gmail",
+    "id": "envio-de-email-via-google-(gmail)",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/0001%20-%20EmailGoogle.feature",
+    "tags": [
+      {
+        "name": "@tudo",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@google",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 7
+        }
+      },
+      {
+        "name": "@gmail",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 15
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-14T21:54:01.865Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Pesquisa no Google",
+        "description": "",
+        "id": "pesquisa-no-google;pesquisa-no-google",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 35 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027LAPTOP-OJ05BAOP\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)\r\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:130)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat estudos.frameworkautomacaoweb.drivermanager.ChromeDriverManager.createDriver(ChromeDriverManager.java:11)\r\n\tat estudos.frameworkautomacaoweb.drivermanager.DriverManager.getWebDriver(DriverManager.java:18)\r\n\tat estudos.frameworkautomacaoweb.drivermanager.SetUp.setUpBrowser(SetUp.java:11)\r\n\tat estudos.frameworkautomacaoweb.specs.GoogleStepDefinition.eu_esteja_na_página_do_Google(GoogleStepDefinition.java:17)\r\n\tat ✽.Eu esteja na página do Google(file:///C:/Users/Bruno/GitTeste/FrameworkAutomacaoWeb/src/test/resources/Features/0002%20-%20Google.feature:9)\r\n",
+              "duration": 612684900,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "Eu esteja na página do Google",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.GoogleStepDefinition.eu_esteja_na_página_do_Google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "pesquiso pelo site \"globo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "globo.com",
+                  "offset": 20
+                }
+              ],
+              "location": "estudos.frameworkautomacaoweb.specs.GoogleStepDefinition.pesquiso_pelo_site(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "será exibido o site pesquisado",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.GoogleStepDefinition.será_exibido_o_site_pesquisado()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tudo"
+          },
+          {
+            "name": "@google"
+          },
+          {
+            "name": "@pesquisa"
+          },
+          {
+            "name": "@pesquisaglobo"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-14T21:54:02.504Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Acessar o Tech Tudo",
+        "description": "",
+        "id": "pesquisa-no-google;acessar-o-tech-tudo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"estudos.frameworkautomacaoweb.pages.GooglePage.techtudoLinkClick()\" because \"estudos.frameworkautomacaoweb.specs.GoogleStepDefinition.googlePage\" is null\r\n\tat estudos.frameworkautomacaoweb.specs.GoogleStepDefinition.clico_no_link_da_tech_tudo_tech(GoogleStepDefinition.java:34)\r\n\tat ✽.Clico no link da tech tudo - tech(file:///C:/Users/Bruno/GitTeste/FrameworkAutomacaoWeb/src/test/resources/Features/0002%20-%20Google.feature:15)\r\n",
+              "duration": 4999000,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "Clico no link da tech tudo - tech",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.GoogleStepDefinition.clico_no_link_da_tech_tudo_tech()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "será exibida a página do TechTudo com o título \"TechTudo - A Tecnologia Descomplicada\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "TechTudo - A Tecnologia Descomplicada",
+                  "offset": 48
+                }
+              ],
+              "location": "estudos.frameworkautomacaoweb.specs.GoogleStepDefinition.será_exibida_a_página_do_TechTudo_com_o_título(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tudo"
+          },
+          {
+            "name": "@google"
+          },
+          {
+            "name": "@pesquisa"
+          },
+          {
+            "name": "@techtudo"
+          }
+        ]
+      }
+    ],
+    "name": "Pesquisa no Google",
+    "description": "  Eu pretendo realizar uma pesquisa no Google e navegar no site encontrado",
+    "id": "pesquisa-no-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/0002%20-%20Google.feature",
+    "tags": [
+      {
+        "name": "@tudo",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@google",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 7
+        }
+      },
+      {
+        "name": "@pesquisa",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 15
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Eu esteja na página da Amazon",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 41 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027LAPTOP-OJ05BAOP\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)\r\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:130)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat estudos.frameworkautomacaoweb.drivermanager.ChromeDriverManager.createDriver(ChromeDriverManager.java:11)\r\n\tat estudos.frameworkautomacaoweb.drivermanager.DriverManager.getWebDriver(DriverManager.java:18)\r\n\tat estudos.frameworkautomacaoweb.drivermanager.SetUp.setUpBrowser(SetUp.java:11)\r\n\tat estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.eu_acesse_a_página(AmazonStepDefinition.java:21)\r\n\tat ✽.eu acesse a página \"https://www.amazon.com.br/\"(file:///C:/Users/Bruno/GitTeste/FrameworkAutomacaoWeb/src/test/resources/Features/0003%20-%20Amazon.feature:6)\r\n",
+              "duration": 610109300,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "eu acesse a página \"https://www.amazon.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.amazon.com.br/",
+                  "offset": 20
+                }
+              ],
+              "location": "estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.eu_acesse_a_página(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "o acesso ocorrerá com sucesso",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.o_acesso_ocorrerá_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-14T21:54:02.521Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Adicionar produto na sacola",
+        "description": "",
+        "id": "utilizar-serviços-da-amazon;adicionar-produto-na-sacola",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "eu pesquiso o livro \"A Dança da Morte\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A Dança da Morte",
+                  "offset": 21
+                }
+              ],
+              "location": "estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.eu_pesquiso_o_livro(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "adiciono ao carrinho",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.adiciono_ao_carrinho()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "acesso a página do carrinho",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.acesso_a_página_do_carrinho()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "o produto será exibido na sacola",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.o_produto_será_exibido_na_sacola()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tudo"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@selecionarproduto"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Eu esteja na página da Amazon",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary\n  (Driver info: chromedriver\u003d74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform\u003dWindows NT 10.0.19042 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 55 milliseconds\nBuild info: version: \u00273.12.0\u0027, revision: \u00277c6e0b3\u0027, time: \u00272018-05-08T14:04:26.12Z\u0027\nSystem info: host: \u0027LAPTOP-OJ05BAOP\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.1\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)\r\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)\r\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\r\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\r\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\r\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\r\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\r\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\r\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\r\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:207)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:130)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat estudos.frameworkautomacaoweb.drivermanager.ChromeDriverManager.createDriver(ChromeDriverManager.java:11)\r\n\tat estudos.frameworkautomacaoweb.drivermanager.DriverManager.getWebDriver(DriverManager.java:18)\r\n\tat estudos.frameworkautomacaoweb.drivermanager.SetUp.setUpBrowser(SetUp.java:11)\r\n\tat estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.eu_acesse_a_página(AmazonStepDefinition.java:21)\r\n\tat ✽.eu acesse a página \"https://www.amazon.com.br/\"(file:///C:/Users/Bruno/GitTeste/FrameworkAutomacaoWeb/src/test/resources/Features/0003%20-%20Amazon.feature:6)\r\n",
+              "duration": 605113200,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "eu acesse a página \"https://www.amazon.com.br/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.amazon.com.br/",
+                  "offset": 20
+                }
+              ],
+              "location": "estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.eu_acesse_a_página(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "o acesso ocorrerá com sucesso",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.o_acesso_ocorrerá_com_sucesso()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-14T21:54:03.153Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login sem sucesso",
+        "description": "",
+        "id": "utilizar-serviços-da-amazon;login-sem-sucesso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Eu acesso a página de login",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.eu_acesso_a_página_de_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "e informo dados de login inválidos",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.e_informo_usuario_e_senha_inválidos(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "bhsrodriguesteste@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "senha",
+                  "Senhaincorreta"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "clico em logar",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.clico_em_logar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "Eu vejo critica de usuário não cadastrado/inválido",
+            "match": {
+              "location": "estudos.frameworkautomacaoweb.specs.AmazonStepDefinition.eu_vejo_critica_de_usuário_não_cadastrado_inválido()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tudo"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@loginincorreto"
+          }
+        ]
+      }
+    ],
+    "name": "Utilizar serviços da Amazon",
+    "description": "  I want to use this template for my feature file",
+    "id": "utilizar-serviços-da-amazon",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/0003%20-%20Amazon.feature",
+    "tags": [
+      {
+        "name": "@tudo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@amazon",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 7
+        }
+      }
+    ]
+  }
+]

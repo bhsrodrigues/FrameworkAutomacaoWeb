@@ -33,7 +33,6 @@ public class BasePage extends CommonFunctions {
 	 * Método para esperar um elemento visível na página
 	 * Pode ser usado em qualquer classe do tipo Page (elementos das páginas)
 	 * @param by Tipo de elemento o qual será procurado na página (xpath, css, id, etc)
-	 * @param wait Wait gerado no construtor da página
 	 * @return Retorna o elemento encontrado
 	 * @author Bruno Henrique
 	 */
@@ -41,6 +40,13 @@ public class BasePage extends CommonFunctions {
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(by));
 	}
 	
+	/***
+	 * Método para esperar todos elementos visíveis na página
+	 * Pode ser usado em qualquer classe do tipo Page (elementos das páginas)
+	 * @param by Tipo de elemento o qual será procurado na página (xpath, css, id, etc)
+	 * @return Retorna o elemento encontrado
+	 * @author Bruno Henrique
+	 */
 	protected List<WebElement> waitAllVisibleElements(By by){
 		return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(by));
 	}

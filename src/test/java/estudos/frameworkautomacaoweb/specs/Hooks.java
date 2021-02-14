@@ -1,8 +1,9 @@
 package estudos.frameworkautomacaoweb.specs;
 
-import cucumber.api.Scenario;
-import cucumber.api.java.Before;
+
 import estudos.frameworkautomacaoweb.common.CommonFunctions;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
 
 public class Hooks {
 	

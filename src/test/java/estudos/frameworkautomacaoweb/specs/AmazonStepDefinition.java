@@ -3,9 +3,9 @@ package estudos.frameworkautomacaoweb.specs;
 import java.util.Map;
 
 
-import estudos.frameworkautomacaoweb.common.CommonFunctions;
-import estudos.frameworkautomacaoweb.drivermanager.SetUp;
-import estudos.frameworkautomacaoweb.pages.AmazonPage;
+import main.java.estudos.frameworkautomacaoweb.common.CommonFunctions;
+import main.java.estudos.frameworkautomacaoweb.drivermanager.SetUp;
+import main.java.estudos.frameworkautomacaoweb.pages.AmazonPage;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

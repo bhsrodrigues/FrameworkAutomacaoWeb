@@ -8,8 +8,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import estudos.frameworkautomacaoweb.common.BasePage;
 import estudos.frameworkautomacaoweb.common.CommonFunctions;
+import estudos.frameworkautomacaoweb.common.BasePage;
 
 public class GooglePage extends BasePage{
 	public GooglePage(WebDriver driver) {

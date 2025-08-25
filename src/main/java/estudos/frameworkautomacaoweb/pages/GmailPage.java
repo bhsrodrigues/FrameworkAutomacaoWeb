@@ -65,6 +65,7 @@ public class GmailPage extends BasePage{
 		assertMessages("escrever", writeEmailButton().getText().toLowerCase());
 	}
 	
+	@SuppressWarnings("unused")
 	private WebElement fieldEmailTo() {
 		return waitVisibleElement(By.xpath("//*[contains(@class,'aoD') and contains(@class,'hl')]"));
 	}

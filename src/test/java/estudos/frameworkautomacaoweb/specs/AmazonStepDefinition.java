@@ -1,11 +1,11 @@
 package estudos.frameworkautomacaoweb.specs;
 
+
 import java.util.Map;
 
-
-import main.java.estudos.frameworkautomacaoweb.common.CommonFunctions;
-import main.java.estudos.frameworkautomacaoweb.drivermanager.SetUp;
-import main.java.estudos.frameworkautomacaoweb.pages.AmazonPage;
+import estudos.frameworkautomacaoweb.common.CommonFunctions;
+import estudos.frameworkautomacaoweb.drivermanager.SetUp;
+import estudos.frameworkautomacaoweb.pages.AmazonPage;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -19,7 +19,7 @@ public class AmazonStepDefinition extends SetUp{
 	@Given("^eu acesse a página \"([^\"]*)\"$")
 	public void eu_acesse_a_página(String url) throws Throwable {
 		setUpBrowser();
-	    amazonPage = new AmazonPage(CommonFunctions.driver);
+		amazonPage = new AmazonPage(CommonFunctions.driver);
 	    amazonPage.navigateTo(url);
 	    
 	}

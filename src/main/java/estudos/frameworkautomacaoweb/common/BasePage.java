@@ -2,6 +2,7 @@ package estudos.frameworkautomacaoweb.common;
 
 import static org.junit.Assert.assertEquals;
 
+import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -10,13 +11,14 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
 public class BasePage extends CommonFunctions {
 	
 
-	protected WebDriverWait wait;
+	public WebDriverWait wait;
 	
 	public BasePage(WebDriver driver) {
-		wait = new WebDriverWait(driver, 15);
+		wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 	}
 	
 	public void navigateTo(String url) {
@@ -60,7 +62,7 @@ public class BasePage extends CommonFunctions {
 	}
 
 	protected void updateTimeout(int time) {
-		wait = new WebDriverWait(CommonFunctions.driver, time);
+		wait = new WebDriverWait(CommonFunctions.driver, Duration.ofSeconds(time));
 	}
 	
 	protected void assertMessages(String expected, String message) {

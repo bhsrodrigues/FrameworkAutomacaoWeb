@@ -1,6 +1,5 @@
 package estudos.frameworkautomacaoweb.specs;
 
-
 import estudos.frameworkautomacaoweb.common.CommonFunctions;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;

@@ -1,14 +1,16 @@
 package estudos.frameworkautomacaoweb.specs;
 
+
+
 import java.util.Map;
 
+import estudos.frameworkautomacaoweb.common.CommonFunctions;
+import estudos.frameworkautomacaoweb.drivermanager.SetUp;
+import estudos.frameworkautomacaoweb.pages.GmailPage;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import estudos.frameworkautomacaoweb.common.CommonFunctions;
-import estudos.frameworkautomacaoweb.drivermanager.SetUp;
-import estudos.frameworkautomacaoweb.pages.GmailPage;
 
 public class EmailGoogleStepDefinition extends SetUp{
 	

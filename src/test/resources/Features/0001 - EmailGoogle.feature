@@ -8,7 +8,7 @@ Feature: Envio de Email via Google (Gmail)
     Given Eu esteja na página de login do Gmail
     When Eu informo meus dados de login
       | email | bhsrodriguesteste@gmail.com |
-      | senha |                             |
+      | senha | TesteAutoTeste              |
     And clico no botão login
     Then Eu acesso meu e-mail com sucesso
 

@@ -10,6 +10,7 @@ public class EdgeDriverManager extends DriverManager{
 		
 		System.setProperty("java.net.preferIPv4Stack", "true");
 		System.setProperty("webdriver.edge.driver", "src/test/resources/Drivers/geckodriver.exe");
+		@SuppressWarnings("unused")
 		EdgeOptions options = new EdgeOptions();
 		
 		this.driver = new EdgeDriver();
